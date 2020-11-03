@@ -69,7 +69,7 @@ nav {
 .jumbo{
     display: flex;
     justify-content: center;
-     width:90%;
+     width:100%;
      padding-bottom: 1%; 
 }
 p {
@@ -81,6 +81,28 @@ p {
     margin: 0 auto;
 }
 
+
+.about{
+    padding-left: 2%;
+    padding-bottom: 2%;
+    line-height: 1.5;
+    width: 100%;
+    margin-bottom: 35px;
+    border-bottom: 1px dashed black
+
+}
+.middle{
+    width: 20%;
+    margin: 5%;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;         
+}
+.card{
+    margin-left: 5%;
+    padding: 10%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +172,7 @@ p {
 .box10{
     background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
